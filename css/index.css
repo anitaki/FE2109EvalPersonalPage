@@ -6,6 +6,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 16px;
   margin: 0;
+  background-color: rgba(250, 246, 211, 0.55);
 }
 
 /* ------> Header  -----*/
@@ -35,8 +36,49 @@ header {
   );
   border-radius: 50%;
   border-style: solid;
-  height:65px;
+  height: 65px;
   width: 65px;
   margin: auto;
   cursor: pointer;
+}
+
+/*------Social Media---------*/
+
+.social {
+  margin: 0 0 50px 0;
+}
+
+/*----- Main Section: My Photo and About Me text ------*/
+main {
+  display: flex;
+  justify-content: space-between;
+  min-height: 500px;
+  margin: 0 0 0 0;
+}
+
+.myPhotoSection {
+  background-image: url("https://scontent.fath3-3.fna.fbcdn.net/v/t1.6435-9/211708601_10226544569143832_7256582938537242822_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=mjOJIAhN5BMAX9lXn24&_nc_ht=scontent.fath3-3.fna&oh=3132244b394f25ee37b3cb76247ab818&oe=618CEB63");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 75%;
+  border: black solid 5px;
+
+  padding: 0.5rem;
+  margin: 0 0 0 0;
+  background-color: black;
+}
+
+.aboutMeSection {
+  width: 25%;
+  border: black solid 5px;
+
+  padding: 2rem;
+  margin: 0 0 0 0;
+}
+
+.myPhoto {
+  width: 75%;
+  margin: auto;
+  object-fit: contain;
 }

@@ -10,9 +10,9 @@
 
     <script>
       var colors = [
-        "rgb(74, 179, 228)",
-        "rgb(247,116,166)",
-        "rgb(250, 246, 211)",
+        "rgba(74, 179, 228, 0.5)",
+        "rgba(247,116,166,0.5)",
+        "rgba(250, 246, 211, 0.55)",
       ];
       var colorIndex = 0;
       function changeColor() {
@@ -30,7 +30,24 @@
     <header>
       <button id="button" onclick="changeColor();"></button>
     </header>
-    <img class="facebook" id="icons" src="images/facebook_icon.png" />
-    <img class="youtube" id="icons" src="/images/youtube_icon.png" />
+    <section class="social">
+      <img class="facebook" id="icons" src="images/facebook_icon.png" />
+      <img class="youtube" id="icons" src="/images/youtube_icon.png" />
+    </section>
+
+    <main>
+      <div class="myPhotoSection"></div>
+      <div class="aboutMeSection">
+        <h3>I am Maria, a personal trainer working with Pilates</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde modi,
+          est tempore delectus nam et beatae illum corrupti porro quasi
+          asperiores quas, aut ducimus doloribus aliquam quis consequatur
+          molestias necessitatibus eum nemo hic qui! Assumenda, id. Vero,
+          laboriosam architecto? Deserunt temporibus, quaerat consequatur
+          numquam voluptatum ipsum commodi minima voluptatem quisquam?
+        </p>
+      </div>
+    </main>
   </body>
 </html>
