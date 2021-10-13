@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>Document</title>
+
+    <script>
+      var colors = [
+        "rgb(74, 179, 228)",
+        "rgb(247,116,166)",
+        "rgb(250, 246, 211)",
+      ];
+      var colorIndex = 0;
+      function changeColor() {
+        var col = document.getElementById("body");
+        if (colorIndex >= colors.length) {
+          colorIndex = 0;
+        }
+        col.style.backgroundColor = colors[colorIndex];
+        colorIndex++;
+      }
+    </script>
+  </head>
+  <body id="body">
+    <header>
+      <button onclick="changeColor();">Color</button>
+    </header>
+    <img class="facebook" id="icons" src="images/facebook_icon.png" />
+    <img class="youtube" id="icons" src="/images/youtube_icon.png" />
+  </body>
+</html>
