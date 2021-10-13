@@ -13,6 +13,8 @@ body {
 header {
   background-color: black;
   height: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 #icons {
@@ -20,4 +22,16 @@ header {
   width: 40px;
   position: 0;
   margin: 5px;
+}
+
+#button {
+  
+  background: linear-gradient(320deg, rgba(247,116,166,1) 14%, rgba(248,150,178,1) 29%, rgba(250,246,211,1) 52%, rgba(125,199,223,1) 76%, rgba(74,179,228,1) 100%);
+border-radius: 50%;
+border-style: solid;
+height: 50px;
+width: 50px;
+margin: auto;
+
+
 }
