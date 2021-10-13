@@ -1,4 +1,7 @@
 # FE2109EvalPersonalPage
-Evaluation Project for Odyssea - Personal page 
+Evaluation Project for Odyssea 
+Build a Personal page using HTML and CSS
 
-The Javascript code for the button, I found online. 
+Note:
+The Javascript code is not my code. 
+I found an example of background color change with a button using Javascript online. 
