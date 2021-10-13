@@ -6,7 +6,6 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 16px;
   margin: 0;
-  background-color: rgb(250, 246, 211);
 }
 
 /* ------> Header  -----*/
@@ -16,16 +15,9 @@ header {
   height: 100px;
 }
 
-header > button {
-    margin: 10 50 10 50px;
-}
-
 #icons {
   height: 40px;
   width: 40px;
   position: 0;
   margin: 5px;
-
-  
 }
-
