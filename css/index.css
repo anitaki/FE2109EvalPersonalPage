@@ -102,15 +102,20 @@ header {
 
 /*.......Header : Navigation Menu.......*/
 
-.nav-bar {
+.nav-bar li a{
 color: rgba(250, 246, 211, 1);
 font-size: 22px;
 list-style: none;
+text-decoration: none;
+
+
 
 
 }
 
-
+.nav-bar li a:hover{
+  text-decoration: underline  ;
+}
 
 
 

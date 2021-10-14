@@ -17,13 +17,15 @@
       var colorIndex = 0;
       function changeColor() {
         var col = document.getElementById("body");
-        var colList = document.getElementById("nav-li");
+        var colList1 = document.getElementById("nav-li1");
+        var colList2 = document.getElementById("nav-li2");
 
         if (colorIndex >= colors.length) {
           colorIndex = 0;
         }
         col.style.backgroundColor = colors[colorIndex];
-        colList.style.color = colors[colorIndex];
+        colList1.style.color = colors[colorIndex];
+        colList2.style.color = colors[colorIndex];
         colorIndex++;
       }
     </script>
@@ -36,9 +38,9 @@
         class="ball"
         onclick="changeColor();"
       ></button>
-      <ul id="nav-li" class="nav-bar">
-        <li>About</li>
-        <li>Contact</li>
+      <ul  class="nav-bar">
+        <li><a id="nav-li1" href="#"> About</a> </li>
+        <li><a id="nav-li2" href="#">Contact</a> </li>
       </ul>
     </header>
     <section class="social">
