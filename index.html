@@ -19,6 +19,8 @@
         var col = document.getElementById("body");
         var colList1 = document.getElementById("nav-li1");
         var colList2 = document.getElementById("nav-li2");
+        var colSocial1 = document.getElementById("social1");
+        var colSocial2 = document.getElementById("social2");
 
         if (colorIndex >= colors.length) {
           colorIndex = 0;
@@ -26,6 +28,8 @@
         col.style.backgroundColor = colors[colorIndex];
         colList1.style.color = colors[colorIndex];
         colList2.style.color = colors[colorIndex];
+        colSocial1.style.backgroundColor = colors[colorIndex];
+        colSocial2.style.backgroundColor = colors[colorIndex];
         colorIndex++;
       }
     </script>
@@ -33,20 +37,21 @@
 
   <body id="body">
     <header>
+      <ul  class="nav-bar">
+        <li><a id="nav-li1" href="#"> About</a> </li>
+        <li><a id="nav-li2" href="#">Contact</a> </li>
+      </ul>
       <button
         id="button"
         class="ball"
         onclick="changeColor();"
       ></button>
-      <ul  class="nav-bar">
-        <li><a id="nav-li1" href="#"> About</a> </li>
-        <li><a id="nav-li2" href="#">Contact</a> </li>
-      </ul>
+      <section class="social">
+       <a href="#"> <img   id="social1" src="images/facebook_icon.png" /></a>
+        <a href="#"><img  id="social2" src="/images/youtube_icon.png" /></a>
+      </section>
     </header>
-    <section class="social">
-      <img class="facebook" id="icons" src="images/facebook_icon.png" />
-      <img class="youtube" id="icons" src="/images/youtube_icon.png" />
-    </section>
+    
 
     <main>
       <div class="figure">

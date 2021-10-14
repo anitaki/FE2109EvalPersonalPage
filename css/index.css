@@ -16,14 +16,10 @@ header {
   height: 100px;
   display: flex;
   justify-content: center;
+
 }
 
-#icons {
-  height: 40px;
-  width: 40px;
-  position: 0;
-  margin: 5px;
-}
+
 
 #button {
   background: linear-gradient(
@@ -40,6 +36,7 @@ header {
   width: 65px;
   margin: auto;
   cursor: pointer;
+  
 }
 
 .ball {
@@ -117,7 +114,14 @@ text-decoration: none;
   text-decoration: underline  ;
 }
 
-
+.social img {
+  height: 40px;
+  width: 40px;
+  position: 0;
+  margin: 5px;
+  background-color: rgba(250, 246, 211, 0.55);
+  border-radius: 10%;
+}
 
 
 /*------Social Media---------*/
