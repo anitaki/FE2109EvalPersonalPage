@@ -43,6 +43,15 @@ header {
   
 }
 
+#button:hover{
+  transform: rotate(60deg);
+}
+
+#button:active{
+  
+  transform: translateY(10px) rotate(120deg);
+}
+
 .ball {
   animation-name: ball;
   animation-duration: 6s;
