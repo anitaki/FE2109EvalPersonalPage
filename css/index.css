@@ -15,7 +15,7 @@ header {
   background-color: black;
   height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 
 }
 
@@ -99,12 +99,17 @@ header {
 
 /*.......Header : Navigation Menu.......*/
 
+.nav-bar li{
+  display: inline-block;
+ 
+}
+
 .nav-bar li a{
 color: rgba(250, 246, 211, 1);
 font-size: 22px;
 list-style: none;
 text-decoration: none;
-
+padding: 0.2rem;
 
 
 
@@ -112,6 +117,11 @@ text-decoration: none;
 
 .nav-bar li a:hover{
   text-decoration: underline  ;
+}
+
+.social {
+  margin: 0 0 50px 0;
+  
 }
 
 .social img {
@@ -124,11 +134,9 @@ text-decoration: none;
 }
 
 
-/*------Social Media---------*/
 
-.social {
-  margin: 0 0 50px 0;
-}
+
+
 
 /*----- Main Section: My Photo and About Me text ------*/
 main {
