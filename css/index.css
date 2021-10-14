@@ -42,6 +42,46 @@ header {
   cursor: pointer;
 }
 
+.ball {
+  animation-name: ball;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes ball {
+  0% {
+    background: linear-gradient(
+      320deg,
+      rgba(247, 116, 166, 1) 14%,
+      rgba(248, 150, 178, 1) 29%,
+      rgba(250, 246, 211, 1) 52%,
+      rgba(125, 199, 223, 1) 76%,
+      rgba(74, 179, 228, 1) 100%
+    );
+    margin: auto;
+  }
+  40% {
+    background: rgba(247, 116, 166, 1);
+    margin: auto;
+  }
+  45% {
+    background: rgba(248, 150, 178, 1);
+    margin: 0px 0px 20px 0;
+  }
+  50% {
+    background: rgba(250, 246, 211, 1);
+    margin: 20px 0px 0px 0;
+  }
+  60% {
+    background: rgba(125, 199, 223, 1);
+    margin: -20px 0 0px 0px;
+  }
+  100% {
+    background: rgba(74, 179, 228, 1);
+    margin: 20px 0 0px 0px;
+  }
+}
+
 /*------Social Media---------*/
 
 .social {
@@ -50,34 +90,20 @@ header {
 
 /*----- Main Section: My Photo and About Me text ------*/
 main {
-  display: flex;
-  justify-content: space-between;
   min-height: 500px;
   margin: 0 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.myPhotoSection {
-  background-image: url("https://scontent.fath3-3.fna.fbcdn.net/v/t1.6435-9/211708601_10226544569143832_7256582938537242822_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=mjOJIAhN5BMAX9lXn24&_nc_ht=scontent.fath3-3.fna&oh=3132244b394f25ee37b3cb76247ab818&oe=618CEB63");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+.figure {
   width: 50%;
-  /*border: black solid 5px;*/
-
-  padding: 0.5rem;
-  margin: 0 0 0 0;
 }
 
 .aboutMeSection {
-  width: 50%;
-  /*border: black solid 5px;*/
-
-  padding: 2rem;
-  margin: 0 0 0 0;
+  width: 30%;
 }
 
-.myPhoto {
-  width: 75%;
-  margin: auto;
-  object-fit: contain;
+.aboutMeSection > img {
+  width: 50%;
 }
