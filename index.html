@@ -17,10 +17,13 @@
       var colorIndex = 0;
       function changeColor() {
         var col = document.getElementById("body");
+        var colList = document.getElementById("nav-li");
+
         if (colorIndex >= colors.length) {
           colorIndex = 0;
         }
         col.style.backgroundColor = colors[colorIndex];
+        colList.style.color = colors[colorIndex];
         colorIndex++;
       }
     </script>
@@ -28,7 +31,15 @@
 
   <body id="body">
     <header>
-      <button id="button" class="ball" onclick="changeColor();"></button>
+      <button
+        id="button"
+        class="ball"
+        onclick="changeColor();"
+      ></button>
+      <ul id="nav-li" class="nav-bar">
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
     </header>
     <section class="social">
       <img class="facebook" id="icons" src="images/facebook_icon.png" />
