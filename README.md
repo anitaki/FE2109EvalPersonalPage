@@ -5,3 +5,4 @@ Build a Personal page using HTML and CSS
 Note:
 The Javascript code is not my code. 
 I found an example of background color change with a button using Javascript online. 
+This feature was essential to the website's concept.

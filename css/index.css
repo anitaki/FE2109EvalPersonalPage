@@ -59,6 +59,7 @@ header {
       rgba(74, 179, 228, 1) 100%
     );
     margin: auto;
+    transform: rotateZ(180deg);
   }
   40% {
     background: rgba(247, 116, 166, 1);
@@ -80,9 +81,20 @@ header {
     background: rgba(125, 199, 223, 1);
     margin: -20px 0 0px 0px;
   }
-  100% {
+  75% {
     background: rgba(74, 179, 228, 1);
     margin: 20px 0 0px 0px;
+  }
+ 80% {
+    background: linear-gradient(
+      320deg,
+           
+      rgba(250, 246, 211, 1) 52%,
+      rgba(125, 199, 223, 1) 16%,
+      
+    );
+    margin: auto;
+    
   }
 }
 
