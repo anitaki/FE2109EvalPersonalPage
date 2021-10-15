@@ -26,14 +26,17 @@ header {
     width: 65px;
     margin: auto;
     cursor: pointer;
+   
   }
   
   #button:hover {
     transform: rotate(60deg);
+    box-shadow: 1px 1px 20px whitesmoke;
   }
   
   #button:active {
-    transform: translateY(10px) rotate(120deg);
+    transform: translateY(10px) rotate(120deg) skewY(4deg);
+   
   }
   
   .ball {
@@ -76,7 +79,10 @@ header {
       margin: 20px 0px 20px 0;
     }
     50% {
-      background: rgba(250, 246, 211, 1);
+      background: linear-gradient(320deg,
+      rgba(248, 150, 178, 1) 45%,
+      rgba(250, 246, 211, 1) 25%,
+      );
       margin: 0px 0px 0px 0;
     }
     60% {
@@ -102,16 +108,21 @@ header {
     }
   }
   
+
   @media (max-width: 600px) {
     .ball {
       animation-name: none;
     }
   }
   
+
+
+
   /*.......Header : Navigation Menu.......*/
   
   .nav-bar li {
     display: inline-block;
+    margin: 1.5rem 0 0 0 ;
   }
   
   .nav-bar li a {
@@ -123,11 +134,28 @@ header {
   }
   
   .nav-bar li a:hover {
-    text-decoration: underline;
+    text-decoration: underline ;
+    text-shadow: 2px 2px 20px whitesmoke;
+  }
+
+  .nav-bar li a:active {
+    text-decoration: underline ;
+    text-shadow: 4px 4px 30px whitesmoke;
   }
   
   .social {
-    margin: 0 0 50px 0;
+    
+    margin: 1.5rem 1.5rem 0 0 ;
+  
+   
+  }
+
+  .social img:hover {
+    box-shadow: 1px 1px 14px whitesmoke;
+  }
+
+  .social img:active {
+    box-shadow: 1px 1px 25px whitesmoke;
   }
   
   .social img {
@@ -137,4 +165,5 @@ header {
     margin: 5px;
     background-color: rgba(250, 246, 211, 0.55);
     border-radius: 10%;
+    padding:0.1rem;
   }
