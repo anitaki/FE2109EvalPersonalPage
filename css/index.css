@@ -9,35 +9,43 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
   background-color: rgba(250, 246, 211, 0.55);
+  font-size: 2rem;
 }
 
 /*----- Main Section: My Photo and About Me text ------*/
 main {
-  min-height: 500px;
   margin: 0 0 0 0;
 }
 
-.about-me {
-  background-color: aqua;
+.figure {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  left: 5%;
+  bottom: 300px;
+}
+
+.figure > img {
+  width: 80%;
+}
+
+.about-me-side {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  left: 10%;
+  top: 100px;
+  z-index: -1;
 }
 
 .about-me-image {
-  background-color: yellow;
+  width: 90%;
+  border-radius: 30px;
 }
 
-.about-me-image > img {
-  width: 500px;
-  border-radius: 10px;
+.pilates-system {
+  background-color: black;
 }
 
-.about-me-text {
-  background-color: tomato;
-}
-
-.about-me-text > h3 {
-  text-align: center;
-}
-
-.figure {
-  width: 50%;
+.my-videos {
 }
