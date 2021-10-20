@@ -1,70 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="/css/index.css" />
-    <link rel="stylesheet" href="css/header.css">
-    <title>Document</title>
 
-    <script>
-      var colors = [
-        "rgba(74, 179, 228, 0.5)",
-        "rgba(247,116,166,0.5)",
-        "rgba(250, 246, 211, 0.55)",
-      ];
-      var colorIndex = 0;
-      function changeColor() {
-        var col = document.getElementById("body");
-        var colList1 = document.getElementById("nav-li1");
-        var colList2 = document.getElementById("nav-li2");
-        var colSocial1 = document.getElementById("social1");
-        var colSocial2 = document.getElementById("social2");
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="/css/index.css" />
+  <link rel="stylesheet" href="css/header.css">
+  <title>Document</title>
 
-        if (colorIndex >= colors.length) {
-          colorIndex = 0;
-        }
-        col.style.backgroundColor = colors[colorIndex];
-        colList1.style.color = colors[colorIndex];
-        colList2.style.color = colors[colorIndex];
-        colSocial1.style.backgroundColor = colors[colorIndex];
-        colSocial2.style.backgroundColor = colors[colorIndex];
-        colorIndex++;
+  <script>
+    var colors = [
+      "rgba(74, 179, 228, 0.5)",
+      "rgba(247,116,166,0.5)",
+      "rgba(250, 246, 211, 0.55)",
+    ];
+    var colorIndex = 0;
+    function changeColor() {
+      var col = document.getElementById("body");
+      var colList1 = document.getElementById("nav-li1");
+      var colList2 = document.getElementById("nav-li2");
+      var colSocial1 = document.getElementById("social1");
+      var colSocial2 = document.getElementById("social2");
+
+      if (colorIndex >= colors.length) {
+        colorIndex = 0;
       }
-    </script>
-  </head>
+      col.style.backgroundColor = colors[colorIndex];
+      colList1.style.color = colors[colorIndex];
+      colList2.style.color = colors[colorIndex];
+      colSocial1.style.backgroundColor = colors[colorIndex];
+      colSocial2.style.backgroundColor = colors[colorIndex];
+      colorIndex++;
+    }
+  </script>
+</head>
 
-  <body id="body">
-    <header>
-      <ul  class="nav-bar">
-        <li><a id="nav-li1" href="#"> About</a> </li>
-        <li><a id="nav-li2" href="#">Contact</a> </li>
-      </ul>
-      
-      <button
-        id="button"
-        class="ball"
-        onclick="changeColor();"
-      ></button>
-  
-      <div class="social">
-       <a href="#"> <img   id="social1" src="images/facebook_icon.png" /></a>
-        <a href="#"><img  id="social2" src="/images/youtube_icon.png" /></a>
-      </div>
-    </header>
-    
+<body id="body">
+  <header>
+    <ul class="nav-bar">
+      <li><a id="nav-li1" href="#"> About</a> </li>
+      <li><a id="nav-li2" href="#">Contact</a> </li>
+    </ul>
 
-    <main>
-      <div class="figure">
+    <button id="button" class="ball" onclick="changeColor();"></button>
+
+    <div class="social">
+      <a href="#"> <img id="social1" src="images/facebook_icon.png" /></a>
+      <a href="#"><img id="social2" src="/images/youtube_icon.png" /></a>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- <div class="figure">
         <img
           alt="image of a figure doing pilates"
           src="https://thepilatesplatform.com/wp-content/uploads/2021/06/cropped-Logo_Artwork.png."
         />
+      </div> -->
+
+    <section class="about-me">
+
+      <div class="about-me-image">
+        <img alt="image of Maria" src="images/My picture.jpg">
       </div>
 
-      <div class="aboutMeSection">
+
+      <div class="about-me-text">
         <h3>I am Maria, a personal trainer working with Pilates</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde modi,
@@ -74,16 +78,44 @@
           laboriosam architecto? Deserunt temporibus, quaerat consequatur
           numquam voluptatum ipsum commodi minima voluptatem quisquam?
         </p>
-        <img
-          alt="image of Maria"
-          src="images/My picture.jpg">
-        
       </div>
-    </main>
-    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsum nobis dignissimos tempore corrupti temporibus esse adipisci? Harum quasi quis itaque omnis, voluptatem eum. Aspernatur, assumenda. Fugit ea dicta praesentium ullam quo adipisci autem! Obcaecati accusamus nostrum voluptatibus fugiat! Ullam delectus vero iusto amet dolorem reprehenderit earum commodi adipisci explicabo.
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, provident. Sed nisi molestias non atque unde rerum, ratione explicabo ex facilis dolorem laborum amet, quam quis. Ipsum pariatur quod accusamus nam voluptatum consequuntur, in eveniet exercitationem cumque quasi quas sint temporibus alias odio illum voluptatibus corporis ducimus magnam? Repellendus illo libero est reprehenderit quo nobis modi rem. Neque quasi, recusandae fuga magnam sed iure ut impedit rerum est nihil repellat dolorum quos deleniti animi amet numquam molestiae repudiandae dicta accusantium aspernatur ipsam repellendus maiores! Repellendus obcaecati neque fugit laborum tempore vitae accusantium ullam fugiat dolore. Labore eos ipsam veniam assumenda!</p>
-    </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fugiat nisi cumque, nostrum voluptates odit itaque sed molestiae laboriosam earum distinctio voluptas illum, fugit porro sapiente delectus eum repellat tempore optio nesciunt animi labore blanditiis. Quas delectus quidem repellendus porro amet numquam accusamus suscipit molestias nemo temporibus maxime sequi harum rem repudiandae, voluptatem laudantium doloremque doloribus minima consequuntur reprehenderit vero, error ratione deleniti est! Sapiente iure ipsam maiores dolores possimus consequatur impedit praesentium. Molestiae praesentium accusantium odio quam necessitatibus molestias, similique vitae, tempore iste pariatur earum unde, non quis voluptatem assumenda dolores. Odio earum placeat tenetur nisi? Cupiditate doloremque, culpa ipsum blanditiis tenetur dolor soluta ratione aspernatur totam, facilis fuga officia similique. Molestias, facere similique! Architecto distinctio expedita, error aspernatur inventore quisquam? Asperiores, necessitatibus iure? Deleniti vitae deserunt omnis voluptatibus maxime cumque excepturi exercitationem ratione dignissimos harum, vel, id quas fugiat doloremque rem fugit, dolores ad molestiae saepe magni itaque?</p>
-  </body>
+
+
+
+    </section>
+
+  </main>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsum nobis dignissimos tempore corrupti temporibus
+    esse adipisci? Harum quasi quis itaque omnis, voluptatem eum. Aspernatur, assumenda. Fugit ea dicta praesentium
+    ullam quo adipisci autem! Obcaecati accusamus nostrum voluptatibus fugiat! Ullam delectus vero iusto amet dolorem
+    reprehenderit earum commodi adipisci explicabo.
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, provident. Sed nisi molestias non atque unde
+    rerum, ratione explicabo ex facilis dolorem laborum amet, quam quis. Ipsum pariatur quod accusamus nam voluptatum
+    consequuntur, in eveniet exercitationem cumque quasi quas sint temporibus alias odio illum voluptatibus corporis
+    ducimus magnam? Repellendus illo libero est reprehenderit quo nobis modi rem. Neque quasi, recusandae fuga magnam
+    sed iure ut impedit rerum est nihil repellat dolorum quos deleniti animi amet numquam molestiae repudiandae dicta
+    accusantium aspernatur ipsam repellendus maiores! Repellendus obcaecati neque fugit laborum tempore vitae
+    accusantium ullam fugiat dolore. Labore eos ipsam veniam assumenda!</p>
+  </p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fugiat nisi cumque, nostrum voluptates odit itaque sed
+    molestiae laboriosam earum distinctio voluptas illum, fugit porro sapiente delectus eum repellat tempore optio
+    nesciunt animi labore blanditiis. Quas delectus quidem repellendus porro amet numquam accusamus suscipit molestias
+    nemo temporibus maxime sequi harum rem repudiandae, voluptatem laudantium doloremque doloribus minima consequuntur
+    reprehenderit vero, error ratione deleniti est! Sapiente iure ipsam maiores dolores possimus consequatur impedit
+    praesentium. Molestiae praesentium accusantium odio quam necessitatibus molestias, similique vitae, tempore iste
+    pariatur earum unde, non quis voluptatem assumenda dolores. Odio earum placeat tenetur nisi? Cupiditate doloremque,
+    culpa ipsum blanditiis tenetur dolor soluta ratione aspernatur totam, facilis fuga officia similique. Molestias,
+    facere similique! Architecto distinctio expedita, error aspernatur inventore quisquam? Asperiores, necessitatibus
+    iure? Deleniti vitae deserunt omnis voluptatibus maxime cumque excepturi exercitationem ratione dignissimos harum,
+    vel, id quas fugiat doloremque rem fugit, dolores ad molestiae saepe magni itaque?</p>
+</body>
+
 </html>

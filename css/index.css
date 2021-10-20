@@ -9,24 +9,36 @@ body {
   background-color: rgba(250, 246, 211, 0.55);
 }
 
-
-
 /*----- Main Section: My Photo and About Me text ------*/
 main {
   min-height: 500px;
   margin: 0 0 0 0;
-  display: flex;
-  justify-content: space-evenly;
+  
 }
 
-.figure {
+.about-me {
+ 
+  background-color: aqua;
+ 
+}
+
+.about-me-image {
+ 
+
+ 
+  background-color: yellow;
+}
+
+.about-me-image > img{
+  width: 400px;
+}
+
+.about-me-text {
+
+ width: 50%;
+  background-color: tomato;
+}
+
+/* .figure {
   width: 50%;
-}
-
-.aboutMeSection {
-  width: 30%;
-}
-
-.aboutMeSection > img {
-  width: 50%;
-}
+} */
