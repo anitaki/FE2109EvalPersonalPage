@@ -16,47 +16,70 @@ main {
   margin: 0 0 0 0;
 }
 
+
+
+
+
 /*----- Main Section: My Photo and About Me text ------*/
 
-.figure {
+.my-image {
   display: inline-block;
   width: 40%;
   position: relative;
-  left: 5%;
-  bottom: 300px;
+  top: 200px;
+  left: 10vw;
+ 
+ 
 }
 
-.figure > img {
+
+
+.about-me-image {
   width: 80%;
+  border-radius: 30px;
+  margin: 0 0;
+
+ 
 }
+
 
 .about-me-side {
   display: inline-block;
   width: 40%;
   position: relative;
-  left: 10%;
-  top: 100px;
+  left: 10vw;
+  /* background-color:blueviolet ; */
+  margin:0;
+  padding:0;
 }
 
-.about-me-image {
-  width: 90%;
-  border-radius: 30px;
+.about-me-text {
+  margin: 0 0;
 }
+
+
+
+
+
+
 
 /*----- Main Section: Pilates system: 4 types / images ------*/
 
 .pilates-system {
   background-color: black;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;  
+  margin: 25vh 0;
+ 
 }
 
 .pilates-system img {
   margin: 10px;
 }
 
-.img-mat. {
+.img-mat {
   position: relative;
+bottom: 30px;
 }
 
 .img-mat-props {
@@ -66,7 +89,7 @@ main {
 
 .img-reformer {
   position: relative;
-  top: 25px;
+  top: 35px;
 }
 
 .img-aerial {

@@ -1,3 +1,5 @@
+
+
 /* ------> Header  -----*/
 
 header {
@@ -108,11 +110,19 @@ header {
   }
 }
 
+
+
+
 @media (max-width: 600px) {
   .ball {
     animation-name: none;
   }
 }
+
+
+
+
+
 
 /*.......Header : Navigation Menu.......*/
 
