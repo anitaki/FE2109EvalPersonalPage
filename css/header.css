@@ -7,6 +7,7 @@ header {
   justify-content: space-between;
   position: -webkit-sticky; /* for Safari */
   position: sticky;
+  z-index: 2;
   top: 0;
   align-self: flex-start;
 }
@@ -51,7 +52,7 @@ header {
       rgba(248, 150, 178, 1) 29%,
       rgba(250, 246, 211, 1) 52%,
       rgba(125, 199, 223, 1) 76%,
-      rgba(74, 179, 228, 1) 100%,
+      rgba(74, 179, 228, 1) 100%
     );
     margin: auto;
     transform: rotateZ(180deg);

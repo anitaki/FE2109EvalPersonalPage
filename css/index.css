@@ -12,10 +12,11 @@ body {
   font-size: 2rem;
 }
 
-/*----- Main Section: My Photo and About Me text ------*/
 main {
   margin: 0 0 0 0;
 }
+
+/*----- Main Section: My Photo and About Me text ------*/
 
 .figure {
   display: inline-block;
@@ -35,7 +36,6 @@ main {
   position: relative;
   left: 10%;
   top: 100px;
-  z-index: -1;
 }
 
 .about-me-image {
@@ -43,9 +43,38 @@ main {
   border-radius: 30px;
 }
 
+/*----- Main Section: Pilates system: 4 types / images ------*/
+
 .pilates-system {
   background-color: black;
+  display: flex;
+  justify-content: space-around;
 }
+
+.pilates-system img {
+  margin: 10px;
+}
+
+.img-mat. {
+  position: relative;
+}
+
+.img-mat-props {
+  position: relative;
+  top: 130px;
+}
+
+.img-reformer {
+  position: relative;
+  top: 25px;
+}
+
+.img-aerial {
+  position: relative;
+  bottom: 100px;
+}
+
+/*----- Main Section: My Videos ------*/
 
 .my-videos {
 }
