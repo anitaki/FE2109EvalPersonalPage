@@ -9,7 +9,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
   background-color: rgba(250, 246, 211, 0.55);
-  font-size: 2rem;
+
 }
 
 main {
@@ -22,39 +22,48 @@ main {
 
 /*----- Main Section: My Photo and About Me text ------*/
 
-.my-image {
-  display: inline-block;
-  width: 40%;
-  position: relative;
-  top: 200px;
-  left: 10vw;
- 
- 
-}
 
+.about-me {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 150px 0 0 0 ;
+}
 
 
 .about-me-image {
-  width: 80%;
-  border-radius: 30px;
-  margin: 0 0;
-
+  
+  width: 40%;
+ 
+  
+ 
  
 }
 
 
-.about-me-side {
-  display: inline-block;
-  width: 40%;
-  position: relative;
-  left: 10vw;
-  /* background-color:blueviolet ; */
-  margin:0;
-  padding:0;
+
+.my-image{
+  min-width: 70%;
+  max-width: 80%;
+  border-radius: 3%;
+  margin: 2em;
+
+
+ 
 }
 
+.about-me-side {
+ 
+  /* background-color:blueviolet ; */
+width: 40%;
+font-size: 2em;
+margin: 2em;
+}
+
+
+
 .about-me-text {
-  margin: 0 0;
+
 }
 
 
@@ -75,6 +84,7 @@ main {
 
 .pilates-system img {
   margin: 10px;
+  width: 20%;
 }
 
 .img-mat {
@@ -99,11 +109,26 @@ bottom: 30px;
 
 /*----- Main Section: My Videos ------*/
 
-.my-videos-block {
-  background-color: black;
+.my-videos h2 {
+  margin: 2em;
+}
+
+.my-videos-block { 
+ 
+  display: flex;
+  justify-content: space-around;
 
 }
 
+.my-video-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+
 .my-videos-block span{
-  color: rgba(250, 246, 211, 0.55);
+font-size: 1.5rem;
 }
