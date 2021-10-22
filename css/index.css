@@ -99,5 +99,11 @@ bottom: 30px;
 
 /*----- Main Section: My Videos ------*/
 
-.my-videos {
+.my-videos-block {
+  background-color: black;
+
+}
+
+.my-videos-block span{
+  color: rgba(250, 246, 211, 0.55);
 }
