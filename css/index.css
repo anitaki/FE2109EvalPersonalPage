@@ -77,28 +77,34 @@ main {
   bottom: 100px;
 }
 
+
+
+
 /*----- Main Section: My Videos ------*/
 
 .my-videos {
-  margin: 20em 0;
+ 
   
 }
 
 .my-videos-block {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 2%;
 }
 
 .my-video-item {
   display: flex;
+  width: 33%;
   max-width: 300px;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .my-video-item iframe {
   height: 300px;
+  
 }
 
 .my-videos h2 {
@@ -108,4 +114,53 @@ margin: 2%;
 
 .my-videos-block span {
   font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+/* -----> Media Queries <----- */
+
+
+@media (max-width: 992px) {
+    
+  .my-videos-block {
+  
+    flex-direction: column;
+   align-items: center;
+    width: 100%;
+  
+  }
+
+  .my-video-item {
+    
+    width: 70%;
+    max-width: none;
+    flex-direction: column;
+    align-items: stretch;
+    
+  }
+
+  .my-video-item iframe {
+    min-height: 400px;
+    
+  }
+
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 600px) {
+
+ 
+}
+
+@media (max-width: 425px) {
+  
+
 }
