@@ -44,6 +44,7 @@ header {
   animation-name: ball;
   animation-duration: 3s;
   animation-timing-function: ease-in;
+  animation-delay: 2s;
 }
 
 @keyframes ball {

@@ -18,29 +18,30 @@ main {
 /*----- Main Section: My Photo and About Me text ------*/
 
 .about-me {
+  width: 95%;
+  margin: 5% auto;
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  margin: 15em 0 0 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-me-image {
-  width: 50%;
+  width: 45%;
 }
 
 .my-image {
-  width: 100%;
+  width: 80%;
   border-radius: 3%;
 }
 
 .about-me-side {
-  /* background-color:blueviolet ; */
   width: 40%;
-  font-size: 0.9em;
-  line-height: 1.5;
+  line-height: 1.5rem;
 }
 
 .about-me-text {
+  width: 100%;
+  text-align: justify;
 }
 
 /*----- Main Section: Pilates system: 4 types / images ------*/
@@ -77,14 +78,9 @@ main {
   bottom: 100px;
 }
 
-
-
-
 /*----- Main Section: My Videos ------*/
 
 .my-videos {
- 
-  
 }
 
 .my-videos-block {
@@ -99,68 +95,50 @@ main {
   max-width: 300px;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .my-video-item iframe {
   height: 300px;
-  
 }
 
 .my-videos h2 {
-margin: 2%;
-
+  margin: 2%;
 }
 
 .my-videos-block span {
   font-size: 1.5rem;
 }
 
-
-
-
-
-
-
 /* -----> Media Queries <----- */
 
-
 @media (max-width: 992px) {
-    
   .my-videos-block {
-  
     flex-direction: column;
-   align-items: center;
+    align-items: center;
     width: 100%;
-  
   }
 
   .my-video-item {
-    
     width: 70%;
     max-width: none;
     flex-direction: column;
     align-items: stretch;
-    
   }
 
   .my-video-item iframe {
     min-height: 400px;
-    
   }
 
+  .my-videos h2 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
-  
 }
 
 @media (max-width: 600px) {
-
- 
 }
 
 @media (max-width: 425px) {
-  
-
 }
