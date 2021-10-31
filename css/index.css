@@ -81,6 +81,7 @@ main {
 /*----- Main Section: My Videos ------*/
 
 .my-videos {
+color: rgb(248, 247, 211);
 }
 
 .my-videos-block {
@@ -99,6 +100,8 @@ main {
 
 .my-video-item iframe {
   height: 300px;
+  color: rgb(255, 248, 243)
+
 }
 
 .my-videos h2 {

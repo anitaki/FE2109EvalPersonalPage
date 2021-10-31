@@ -58,7 +58,7 @@ header {
       rgba(74, 179, 228, 1) 100%
     );
     margin: auto;
-    transform: rotateZ(180deg);
+    transform: rotateZ(600deg);
   }
 
   30% {
@@ -107,7 +107,7 @@ header {
       rgba(125, 199, 223, 1) 16%,
     );
     margin: auto;
-    transform: rotate(-180deg);
+    transform: rotate(-300deg);
   }
 }
 
