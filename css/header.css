@@ -120,6 +120,10 @@ header {
   .ball {
     animation-name: none;
   }
+
+  #button:active {
+    transform: none;
+  }
 }
 
 
