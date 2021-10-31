@@ -10,23 +10,19 @@
     <title>Maria's Pilates</title>
 
     
-    <!-- var colors = [
-    "rgba(74, 179, 228, 0.55)",
-    "rgba(247,116,166, 0.55)",
-    "rgba(250, 246, 211, 0.55)",
-  ]; old colors-->
+    
 
   <!-- var colors = [
   "rgba(113, 161, 212, 1)",
   "rgba(252, 195, 191, 1)",
   "rgb(255, 248, 243, 1)",
-];  new colors-->
+];  potential colors-->
     
     <script>
       var colors = [
-    "rgba(74, 179, 228, 0.55)",
+    "rgba(113, 161, 212, 1)",
     "rgba(247,116,166, 0.55)",
-    "rgba(250, 246, 211, 0.55)",
+    "rgba(250, 246, 211, 0.7)",
   ];
       var colorIndex = 0;
       function changeColor() {
@@ -35,6 +31,7 @@
         var colList2 = document.getElementById("nav-li2");
         var colSocial1 = document.getElementById("social1");
         var colSocial2 = document.getElementById("social2");
+        var myVideos = document.getElementById("my-videos");
 
         if (colorIndex >= colors.length) {
           colorIndex = 0;
@@ -44,6 +41,7 @@
         colList2.style.color = colors[colorIndex];
         colSocial1.style.backgroundColor = colors[colorIndex];
         colSocial2.style.backgroundColor = colors[colorIndex];
+        myVideos.style.color = colors[colorIndex];
 
         colorIndex++;
       }
@@ -105,7 +103,7 @@
 
     </div> -->
 
-      <div class="my-videos">
+      <div class="my-videos" id="my-videos">
         <h2>My favorite exercise videos</h2>
         <div class="my-videos-block">
           
@@ -118,8 +116,8 @@
               allowfullscreen
             ></iframe>
             <span id="video-title-1" class="video-title"
-              >Beginner Pilates Flow <br>Exercises based on the Original 34
-              sequence</span
+              >Beginner Pilates Flow <br>based on the Original 34
+                exercise sequence</span
             >
             <span id="video-title-1" class="video-creator">by Di Space</span>
           </div>

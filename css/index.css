@@ -81,7 +81,8 @@ main {
 /*----- Main Section: My Videos ------*/
 
 .my-videos {
-color: rgba(252, 195, 191, 1)
+color: rgba(250, 246, 211, 1);
+
 }
 
 .my-videos-block {
@@ -96,6 +97,8 @@ color: rgba(252, 195, 191, 1)
   max-width: 300px;
   flex-direction: column;
   align-items: center;
+  background-color: black;
+ 
 }
 
 .my-video-item iframe {
@@ -106,10 +109,12 @@ color: rgba(252, 195, 191, 1)
 
 .my-videos h2 {
   margin: 2%;
+  color: black;
 }
 
 .my-videos-block span {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 /* -----> Media Queries <----- */
