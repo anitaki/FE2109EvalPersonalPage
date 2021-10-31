@@ -122,9 +122,7 @@ header {
     animation-name: none;
   }
 
-  #button:active {
-    transform: none;
-  }
+  
 }
 
 
