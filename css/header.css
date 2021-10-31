@@ -191,7 +191,7 @@ a, button {
   }
 
 .social {
-  margin: 1.7rem 0.5rem 0 0;
+  margin: 1.7rem 0.4rem 0 0;
 }
 
 
@@ -206,7 +206,7 @@ a, button {
   .nav-bar li a {
    
     font-size: 20px;
-    padding: 0rem;
+    padding: 0 0.2rem 0 0  ;
   }
   
 }
