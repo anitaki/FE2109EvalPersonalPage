@@ -83,9 +83,11 @@ header {
   50% {
     background: linear-gradient(
       320deg,
-      rgba(248, 150, 178, 1) 45%,
+      rgba(248, 150, 178, 1) 25%,
+      rgba(247, 116, 166, 1) 25%,
       rgba(250, 246, 211, 1) 25%,
     );
+    transform: rotate(90deg);
     margin: 0px 0px 0px 0;
   }
   60% {

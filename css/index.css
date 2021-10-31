@@ -99,11 +99,14 @@ color: rgba(250, 246, 211, 1);
   align-items: center;
   background-color: black;
  
+ 
 }
 
 .my-video-item iframe {
   height: 300px;
-  color: rgb(255, 248, 243)
+  color: rgba(250, 246, 211, 1);
+
+ 
 
 }
 
@@ -120,6 +123,8 @@ color: rgba(250, 246, 211, 1);
 /* -----> Media Queries <----- */
 
 @media (max-width: 992px) {
+
+  
   .my-videos-block {
     flex-direction: column;
     align-items: center;
@@ -127,14 +132,15 @@ color: rgba(250, 246, 211, 1);
   }
 
   .my-video-item {
-    width: 70%;
+    width: 65%;
     max-width: none;
     flex-direction: column;
     align-items: stretch;
+    margin: 5%;
   }
 
   .my-video-item iframe {
-    min-height: 400px;
+    
   }
 
   .my-videos h2 {
@@ -143,9 +149,22 @@ color: rgba(250, 246, 211, 1);
 }
 
 @media (max-width: 768px) {
+
+  .my-videos-block span {
+    font-size: 1.3rem;
+    
+  }
+
+  .my-video-item {
+    width: 80%;
+  }
 }
 
 @media (max-width: 600px) {
+  .my-videos-block span {
+    font-size: 1.2rem;
+    
+  }
 }
 
 @media (max-width: 425px) {
