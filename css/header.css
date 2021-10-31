@@ -38,6 +38,7 @@ header {
 
 #button:active {
   transform: translateY(10px) rotate(120deg) skewY(4deg);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .ball {
