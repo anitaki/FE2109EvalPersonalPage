@@ -3,6 +3,7 @@ https://photostockeditor.com/clip-art-vector/reformer-pilates */
 
 html {
   scroll-behavior: smooth;
+
 }
 
 body {
@@ -59,12 +60,14 @@ main {
   display: flex;
   justify-content: space-around;
   margin: 20em 0;
+ 
 }
 
 .pilates-system img {
   margin: 10px;
   width: 20%;
 }
+
 
 .img-mat {
   position: relative;
@@ -85,6 +88,15 @@ main {
   position: relative;
   bottom: 100px;
 }
+
+
+/* figcaption {visibility: hidden;}
+figure:hover > figcaption {visibility: visible;} */
+
+
+
+
+
 
 /*----- Main Section: My Videos ------*/
 
@@ -203,6 +215,8 @@ color: rgba(250, 246, 211, 1);
   }
 }
 
+
+
 @media (max-width: 600px) {
   .my-videos-block span {
     font-size: 1.2rem;
@@ -211,8 +225,6 @@ color: rgba(250, 246, 211, 1);
 
   
 }
-
-
 
 
 @media (max-width: 425px) {
