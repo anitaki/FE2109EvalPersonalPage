@@ -188,10 +188,7 @@ a, button {
     animation-name: none;
   }
 
-  #button {
-    height: 45px;
-    width: 45px;
-  }
+ 
 
 .social {
   margin: 1.7rem 0.4rem 0 0;
@@ -212,4 +209,15 @@ a, button {
     padding: 0 4px 0 0  ;
   }
   
+}
+
+
+@media (max-width: 425px) {
+
+  #button {
+    height: 45px;
+    width: 45px;
+  }
+
+
 }
