@@ -37,6 +37,13 @@ main {
 .about-me-side {
   width: 40%;
   line-height: 1.5rem;
+  font-size: 1.2em;
+}
+
+.about-me-side h1 {
+  font-size: 1.5em;
+  line-height: 120%;
+  text-align: left;
 }
 
 .about-me-text {
@@ -121,6 +128,38 @@ color: rgba(250, 246, 211, 1);
 }
 
 /* -----> Media Queries <----- */
+
+@media (max-width: 1200px) {
+
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-me-image {
+    width: 60%;
+  }
+  
+  .my-image {
+    width: 100%;
+    border-radius: 3%;
+  }
+  
+  .about-me-side {
+    width: 60%;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+   
+  }
+
+  .about-me-text {
+    text-align: left;
+  }
+
+}
+
+
 
 @media (max-width: 992px) {
 
