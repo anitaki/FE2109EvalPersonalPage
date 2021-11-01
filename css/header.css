@@ -43,7 +43,14 @@ a, button {
 #button:active {
   transform: translateY(10px) rotate(120deg) skewY(4deg);
   -webkit-tap-highlight-color: transparent;
+  
 }
+
+:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
 
 .ball {
   animation-name: ball;
