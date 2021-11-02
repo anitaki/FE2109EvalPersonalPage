@@ -37,6 +37,7 @@
         var colSocial1 = document.getElementById("social1");
         var colSocial2 = document.getElementById("social2");
         var myVideos = document.getElementById("my-videos");
+       
         
 
         if (colorIndex >= colors.length) {
@@ -48,6 +49,7 @@
         colSocial1.style.backgroundColor = colors[colorIndex];
         colSocial2.style.backgroundColor = colors[colorIndex];
         myVideos.style.color = colors[colorIndex];
+       
        
         colorIndex++;
 
@@ -97,15 +99,33 @@
         </div>
       </section>
 
-      <!-- <div class="pilates-system">
+      <div class="pilates-system" id="pilates-system">
 
-        <figure>
-          <img class="img-mat" alt=" image of a figure doing pilates mat exercises"
-        src="images/pilates-icons-bck-08-300x300.png" />
-          <figcaption style="color: aliceblue;">Your label goes here</figcaption>
+        <figure class="img-mat">
+          <img  alt=" image of a figure doing pilates mat exercises"
+        src="images/pilates-icon-mat.png" />
+          <figcaption>Pilates mat</figcaption>
       </figure>
 
-      <img class="img-mat" alt=" image of a figure doing pilates mat exercises"
+      <figure class="img-mat-props">
+        <figcaption>Pilates props</figcaption>
+        <img  alt="image of a figure doing pilates mat exercises with props"
+        src="images/pilates-icon-ball.png" />
+     </figure>
+
+     <figure class="img-reformer">
+      <figcaption>Pilates Reformer</figcaption>
+      <img  alt="image of a figure doing pilates exercises on reformer equipment "
+        src="images/pilates-icon-reformer.png" />
+    </figure>
+
+    <figure class="img-aerial">
+            <img  alt="image of a figure doing aerial pilates"
+      src="images/pilates-icon-aerial.png" />
+      <figcaption>Aerial Pilates</figcaption>
+    </figure>
+
+      <!-- <img class="img-mat" alt=" image of a figure doing pilates mat exercises"
         src="images/pilates-icons-bck-08-300x300.png" />
 
       <img class="img-mat-props" alt="image of a figure doing pilates mat exercises with props"
@@ -115,9 +135,9 @@
         src="images/pilates-icons-bck-26-300x300.png" />
 
       <img class="img-aerial" alt="image of a figure doing aerial pilates"
-        src="images/pilates-icons-bck-17-300x300.png" />
+        src="images/pilates-icons-bck-17-300x300.png" /> -->
 
-    </div> -->
+    </div>
 
       <div class="my-videos" id="my-videos">
         <h2>My favorite exercise videos</h2>
