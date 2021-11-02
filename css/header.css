@@ -138,7 +138,7 @@ a, button {
 }
 
 .nav-bar li a {
-  color: rgb(255, 255, 243);
+  color: rgba(250, 246, 211, 1);
   font-size: 22px;
   list-style: none;
   text-decoration: none;
@@ -172,7 +172,7 @@ a, button {
   width: 40px;
   position: 0;
   margin: 5px;
-  background-color: rgb(255, 255, 243);
+  background-color: rgba(250, 246, 211, 1);
   border-radius: 10%;
   padding: 0.1rem;
 }

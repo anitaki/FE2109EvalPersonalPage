@@ -22,12 +22,12 @@
 ];  potential colors-->
     
     <script>
-var black = "rgb(0, 0, 0)";
+
 
       var colors = [
     "rgba(113, 161, 212, 1)",
     "rgba(252, 195, 191, 1)",
-    "rgba(234, 255, 240, 1)",
+    "rgba(250, 246, 211, 0.55)",
   ];
       var colorIndex = 0;
       function changeColor() {
@@ -37,7 +37,7 @@ var black = "rgb(0, 0, 0)";
         var colSocial1 = document.getElementById("social1");
         var colSocial2 = document.getElementById("social2");
         var myVideos = document.getElementById("my-videos");
-        var aboutMeText = document.getElementById("about-me-text");
+        
 
         if (colorIndex >= colors.length) {
           colorIndex = 0;
@@ -48,7 +48,7 @@ var black = "rgb(0, 0, 0)";
         colSocial1.style.backgroundColor = colors[colorIndex];
         colSocial2.style.backgroundColor = colors[colorIndex];
         myVideos.style.color = colors[colorIndex];
-        aboutMeText.style.color = black;
+       
         colorIndex++;
 
         
