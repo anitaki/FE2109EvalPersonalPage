@@ -22,10 +22,12 @@
 ];  potential colors-->
     
     <script>
+var black = "rgb(0, 0, 0)";
+
       var colors = [
     "rgba(113, 161, 212, 1)",
     "rgba(252, 195, 191, 1)",
-    "rgb(255, 248, 243, 1)",
+    "rgba(234, 255, 240, 1)",
   ];
       var colorIndex = 0;
       function changeColor() {
@@ -35,6 +37,7 @@
         var colSocial1 = document.getElementById("social1");
         var colSocial2 = document.getElementById("social2");
         var myVideos = document.getElementById("my-videos");
+        var aboutMeText = document.getElementById("about-me-text");
 
         if (colorIndex >= colors.length) {
           colorIndex = 0;
@@ -45,9 +48,17 @@
         colSocial1.style.backgroundColor = colors[colorIndex];
         colSocial2.style.backgroundColor = colors[colorIndex];
         myVideos.style.color = colors[colorIndex];
-
+        aboutMeText.style.color = black;
         colorIndex++;
+
+        
       }
+
+      
+      
+        
+
+
     </script>
   </head>
 
@@ -75,7 +86,7 @@
         </div>
 
         <div class="about-me-side">
-          <div class="about-me-text">
+          <div id="about-me-text" class="about-me-text">
             <h1>I am Maria, a pilates instructor focusing on physical therapy through fitness in Athens, Greece</h1>
             <p>  After finishing my pilates certification, I spent the last decade deepening my understanding of the body, as well as the therapeutic effect of pilates on pain relief and injuries.</p>
                <p>Being passionate about the field and the results on my clients physical strength, as well as overall wellbeing, I decided to further my studies by obtaining a Bachelor of Science degree in Physiotherapy from Queen Margaret's University of Scottland.  </p>

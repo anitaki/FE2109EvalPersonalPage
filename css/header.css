@@ -172,7 +172,7 @@ a, button {
   width: 40px;
   position: 0;
   margin: 5px;
-  background-color: rgba(250, 246, 211, 0.55);
+  background-color: rgb(255, 255, 243);
   border-radius: 10%;
   padding: 0.1rem;
 }
