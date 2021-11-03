@@ -25,7 +25,7 @@ a, button {
     rgba(248, 150, 178, 1) 29%,
     rgba(250, 246, 211, 1) 52%,
     rgba(125, 199, 223, 1) 76%,
-    rgba(74, 179, 228, 1) 100%,
+    rgba(74, 179, 228, 1) 100%
   );
   border-radius: 50%;
   border-style: solid;
@@ -63,7 +63,7 @@ a, button {
       rgba(248, 150, 178, 1) 29%,
       rgba(250, 246, 211, 1) 52%,
       rgba(125, 199, 223, 1) 76%,
-      rgba(74, 179, 228, 1) 100%,
+      rgba(74, 179, 228, 1) 100%
     );
     margin: auto;
     transform: rotateZ(600deg);
@@ -184,9 +184,9 @@ a, button {
 
 @media (max-width: 600px) {
   
-  /* .ball {
+  .ball {
     animation-name: none;
-  } */
+  }
 
  
 
