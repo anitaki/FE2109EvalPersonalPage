@@ -145,8 +145,8 @@ h2 {
   transform: rotateZ(33deg);
 }
 
-/* figcaption {visibility: hidden;}
-figure:hover > figcaption {visibility: visible;} */
+figcaption {visibility: hidden;}
+figure:hover > figcaption {visibility: visible;}
 
 /*----- Main Section: My Videos ------*/
 
