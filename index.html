@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css"/>
     <title>Maria's Pilates</title>
 
     
@@ -27,7 +28,7 @@
       var colors = [
     "rgba(113, 161, 212, 1)",
     "rgba(252, 195, 191, 1)",
-    "rgba(250, 246, 211, 0.55)",
+    "rgb(255, 235, 205)",
   ];
       var colorIndex = 0;
       function changeColor() {
@@ -37,6 +38,7 @@
         var colSocial1 = document.getElementById("social1");
         var colSocial2 = document.getElementById("social2");
         var myVideos = document.getElementById("my-videos");
+        var colFooter = document.getElementById("footer");
        
         
 
@@ -49,6 +51,7 @@
         colSocial1.style.backgroundColor = colors[colorIndex];
         colSocial2.style.backgroundColor = colors[colorIndex];
         myVideos.style.color = colors[colorIndex];
+        colFooter.style.color = colors[colorIndex];
        
        
         colorIndex++;
@@ -175,17 +178,11 @@
       </div>
     </main>
 
-    <!-- <div class="figure">
-    <img alt="image of a figure doing pilates" src="https://icon-library.com/images/pilates-icon/pilates-icon-25.jpg"
-      src="https://thepilatesplatform.com/wp-content/uploads/2021/06/cropped-Logo_Artwork.png." />
-  </div> -->
+ 
   </body>
 
-  <footer>This is a fictional site for educational purposes only</footer>
-  <div>
-    Icons made by
-    <a href="https://www.flaticon.com/authors/ddara" title="dDara">dDara</a>
-    from
-    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-  </div>
+
+
+  <footer id="footer">This is a fictional site for educational purposes only</footer>
+  
 </html>
