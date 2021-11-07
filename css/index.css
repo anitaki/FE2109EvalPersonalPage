@@ -9,10 +9,8 @@ body {
   background-color: rgba(250, 246, 211, 0.55);
   margin: 0;
   overscroll-behavior: none; /*to keep body from bouncing left/right on safari*/
-  
-font-family: 'Handlee','Indie Flower', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
+  font-family: "Handlee", "Indie Flower", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 main {
@@ -23,7 +21,7 @@ main {
 
 .about-me {
   width: 95%;
-  margin: 5% auto;
+  margin: 10% auto 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +34,7 @@ main {
 .my-image {
   width: 80%;
   border-radius: 3%;
+  margin: 0 2.5%;
 }
 
 .about-me-side {
@@ -51,10 +50,8 @@ main {
 }
 
 .about-me-side p {
-  
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
-
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .about-me-text {
@@ -65,14 +62,14 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 /*----- Main Section: Pilates system: 4 types / images ------*/
 
 h2 {
-  margin: 2%;
+  margin: 10% 0 0 2%;
 }
 
 .pilates-system {
   background-color: black;
   display: flex;
   justify-content: space-around;
-  margin: 4em 0 20em 0;
+  margin: 4em 0 17em 0;
 }
 
 .pilates-system > figure {
@@ -155,8 +152,12 @@ h2 {
   transform: rotateZ(33deg);
 }
 
-figcaption {visibility: hidden;}
-figure:hover > figcaption {visibility: visible;}
+figcaption {
+  visibility: hidden;
+}
+figure:hover > figcaption {
+  visibility: visible;
+}
 
 /*----- Main Section: My Videos ------*/
 
@@ -167,7 +168,7 @@ figure:hover > figcaption {visibility: visible;}
 .my-videos-block {
   display: flex;
   justify-content: space-evenly;
-  margin: 2%;
+  margin: 4em 0 17em 0;
 }
 
 .my-video-item {
@@ -203,10 +204,16 @@ figure:hover > figcaption {visibility: visible;}
 /* -----> Media Queries <----- */
 
 @media (max-width: 1200px) {
+  h2 {
+    font-size: 1.9rem;
+    margin: 10% 0 0 4%;
+  }
+
   .about-me {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin: 8% 0 0 0;
   }
 
   .about-me-image {
@@ -226,11 +233,20 @@ figure:hover > figcaption {visibility: visible;}
 
   .about-me-side h1 {
     font-size: 1.9rem;
+    line-height: 1.5;
+    margin: 5rem 0 1em 0;
   }
+}
+.about-me-side p {
+  line-height: 1.5;
+}
 
-  .about-me-text {
-    text-align: left;
-  }
+.about-me-text {
+  text-align: left;
+}
+
+.my-videos h2 {
+  margin: 2% 0 0 4%;
 }
 
 @media (max-width: 992px) {
@@ -238,9 +254,18 @@ figure:hover > figcaption {visibility: visible;}
     text-align: center;
   }
 
+  .about-me {
+    margin: 10% auto 15% auto;
+  }
+
+  .pilates-system {
+    margin: 4em 0 17em 0;
+  }
+
   .my-videos-block {
     flex-direction: column;
     align-items: center;
+    margin: 4em 0 8em 0;
   }
 
   .my-video-item {
@@ -248,15 +273,29 @@ figure:hover > figcaption {visibility: visible;}
     max-width: none;
     flex-direction: column;
     align-items: stretch;
-    margin: 5%;
+    margin: 0 5% 12% 5%;
   }
 
   .my-videos h2 {
     text-align: center;
+    margin: 2% 0 0 4%;
   }
 }
 
 @media (max-width: 768px) {
+
+  h2 {
+    margin: 12% 0 0 4%;
+  }
+
+  .about-me {
+    margin: 12% 0 0 0;
+  }
+
+  .pilates-system {
+    margin: 4em 0 15em 0;
+  }
+
   .img-mat {
     position: relative;
     bottom: 30px;
@@ -287,9 +326,23 @@ figure:hover > figcaption {visibility: visible;}
 }
 
 @media (max-width: 600px) {
+
+  h2 {
+    margin: 25% 0 0 4%;
+  }
+
+  .about-me {
+    margin: 17% 0 0 0;
+  }
+
+  .about-me-image {
+  width: 80%;
+  }
+
   .pilates-system {
     flex-direction: column;
     align-items: stretch;
+    margin: 4em 0 12em 0;
   }
 
   .pilates-system > figure {
@@ -321,12 +374,22 @@ figure:hover > figcaption {visibility: visible;}
     right: 75px;
   }
 
+  .my-video-item {
+    margin: 0 5% 15% 5%;
+  }
+
+
   .my-videos-block span {
     font-size: 1.2rem;
   }
 }
 
 @media (max-width: 425px) {
+
+  h2 {
+    margin: 30% 0 0 4%;
+  }
+
   .about-me-image {
     width: 80%;
   }
@@ -349,7 +412,6 @@ figure:hover > figcaption {visibility: visible;}
   .about-me-text {
     text-align: left;
   }
-
 
   .pilates-system > figure {
     width: 50%;
