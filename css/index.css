@@ -16,8 +16,8 @@ body {
 /* font-family: 'Indie Flower', cursive; */
 /* font-family: 'Manrope', sans-serif; */
 /* font-family: 'Sha  dows Into Light', cursive; */
-/* font-family: 'Handlee', 'Indie Flower', cursive; */
-/* font-family: 'Patrick Hand', cursive; */
+/* font-family: 'Handlee', 'Patrick Hand', 'Indie Flower', cursive; */
+font-family: 'Patrick Hand', cursive;
 }
 
 main {
