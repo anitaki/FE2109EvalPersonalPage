@@ -9,15 +9,9 @@ body {
   background-color: rgba(250, 246, 211, 0.55);
   margin: 0;
   overscroll-behavior: none; /*to keep body from bouncing left/right on safari*/
-  /* font-family: 'Balsamiq Sans', cursive; */
-/* font-family: 'Caveat', cursive; */
-/* font-family: 'Didact Gothic', sans-serif; */
-/* font-family: 'Indie Flower', cursive; */
-/* font-family: 'Manrope', sans-serif; */
-/* font-family: 'Sha  dows Into Light', cursive; */
-font-family: 'Handlee', 'Patrick Hand', 'Indie Flower', cursive;
-/* font-family: 'Patrick Hand', cursive; */
-/* font-family: 'Itim', cursive; */
+  
+font-family: 'Handlee','Indie Flower', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 
 }
 
@@ -57,17 +51,9 @@ main {
 }
 
 .about-me-side p {
-  /* font-family: 'Didact Gothic', sans-serif; */
-  /* font-family: 'Balsamiq Sans', cursive; */
-/* font-family: 'Manrope', sans-serif;/ */
+  
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  /* font-family: 'Prompt', sans-serif; */
-  /* font-family: 'Quicksand', sans-serif; */
-  /* font-weight: 300; */
-  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-/* font-family: 'Indie Flower', cursive; */
-/* font-family: 'Itim', cursive; */
-/* font-family: 'Noto Sans', sans-serif; */
+  
 
 }
 
