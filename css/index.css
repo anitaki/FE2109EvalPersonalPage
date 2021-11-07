@@ -10,6 +10,14 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
   overscroll-behavior: none; /*to keep body from bouncing left/right on safari*/
+  /* font-family: 'Balsamiq Sans', cursive; */
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Didact Gothic', sans-serif; */
+/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Manrope', sans-serif; */
+/* font-family: 'Sha  dows Into Light', cursive; */
+font-family: 'Handlee', cursive;
+/* font-family: 'Patrick Hand', cursive; */
 }
 
 main {
@@ -47,9 +55,22 @@ main {
   text-align: left;
 }
 
+.about-me-side p {
+  /* font-family: 'Didact Gothic', sans-serif; */
+  /* font-family: 'Balsamiq Sans', cursive; */
+/* font-family: 'Manrope', sans-serif;/ */
+
+  font-family: 'Prompt', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
+  font-weight: 300;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+
+}
+
 .about-me-text {
   width: 100%;
-  text-align: justify;
+  text-align: left;
 }
 
 /*----- Main Section: Pilates system: 4 types / images ------*/
