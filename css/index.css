@@ -450,4 +450,8 @@ figure:hover > figcaption {
     bottom: 10px;
     right: -70px;
   }
+
+  .my-video-item{
+    width: 90%;
+  }
 }
