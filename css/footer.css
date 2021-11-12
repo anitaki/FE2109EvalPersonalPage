@@ -1,12 +1,33 @@
 footer {
 background-color: black;
 color: rgb(255, 235, 205);
-/* height: 100px; */
+line-height: 1em;
+padding: 1%;
+
 
 }
 
-footer > p > a {
-color: rgb(255, 235, 205);
+#footer-a{
+    color: rgb(255, 235, 205);
+    text-decoration: none;
+    
 
 }
+
+
+#footer-a:hover{
+ border-bottom-width: 3.1px;
+ text-decoration: underline;
+    text-shadow: 2px 2px 20px whitesmoke;
+}
+
+#footer-a:active {
+    text-decoration: underline;
+    text-shadow: 4px 4px 10px whitesmoke;
+}
+
+
+
+
+
 

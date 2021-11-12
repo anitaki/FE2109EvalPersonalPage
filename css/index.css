@@ -13,6 +13,11 @@ body {
     "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+::selection {
+  background: rgb(237, 200, 248);
+  color: rgb(64, 7, 82);
+}
+
 main {
   margin: 0 0 0 0;
 }
@@ -229,6 +234,15 @@ figure:hover > figcaption {
 .contact-me img {
   width: 60px;
   margin: 0 0 3% 0;
+}
+
+.contact-me img:hover, 
+.contact-me img:focus {
+
+  transform: translatex(60px);
+  
+  
+  
 }
 
 .contact-me h1, .contact-me-a h1 {
@@ -523,4 +537,5 @@ figure:hover > figcaption {
   .contact-me-a a  {
     font-size: 1.1rem;
 
+}
 }
