@@ -516,7 +516,8 @@ figure:hover > figcaption {
   }
 
   .contact-me h1, .contact-me-a h1  {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+    text-align: center;
     padding: 1em 0 0.5em 0;
   }
 
