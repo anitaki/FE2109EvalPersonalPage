@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a13914da7a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css"/>
@@ -47,7 +46,7 @@
         var myVideos = document.getElementById("my-videos");
         var colFooter = document.getElementById("footer");
         var colFooterA = document.getElementById("footer-a");
-             
+        var colFooterATop = document.getElementById("footer-a-toTop")   
         
 
         if (colorIndex >= colors.length) {
@@ -61,6 +60,7 @@
         myVideos.style.color = colors[colorIndex];
         colFooter.style.color = colors[colorIndex];
         colFooterA.style.color = colors[colorIndex];
+        colFooterATop.style.backgroundColor = colors[colorIndex];
       
  
         colorIndex++;
@@ -90,7 +90,7 @@
         <a href="#"><img id="social2" src="images/youtube_icon.png" /></a>
       </div>
     </header>
-  <div id="about"></div>
+    <div id="about"></div>
     <main  >
       <section class="about-me">
         <div class="about-me-image">
@@ -199,14 +199,15 @@
       </section>
     </main>
 
-   
+    
  
   <footer id="footer">
-    <a href="#body"><i class="fas fa-chevron-circle-up"></i></a>
- 
-      <p>Images borrowed from http://www.performancepilates.com.au/</p>
-      <p>This is a fictional site for educational purposes&nbsp;only</p>
-      <p>Created by <a id="footer-a" href="mailto:anitawebdesigns@gmail.com">Anita Angelidou</a> </p>
+    <a  id="footer-a-toTop" href="#body"><img src="images/round-arrow-top.png"></a>
+      <div class="attributions">
+        <p>Images borrowed from http://www.performancepilates.com.au/</p>
+        <p>This is a fictional site for educational purposes&nbsp;only</p>
+        <p>Created by <a id="footer-a" href="mailto:anitawebdesigns@gmail.com">Anita Angelidou</a> </p>
+      </div>
      
     </footer>
   </body>
