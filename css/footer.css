@@ -8,17 +8,21 @@ footer {
   align-items: flex-start;
 }
 
-#footer-a-toTop img {
-  width: 80px;
-  height: 80px;
-}
-
 #footer-a-toTop {
   margin: 0;
-  align-self: center;
   background-color: rgb(255, 235, 205);
+  border-radius: 10%;
+  height: 40px;
+  width: 40px;
+  padding: 0.1rem;
+}
 
+#footer-a-toTop:hover {
+  box-shadow: 1px 1px 14px whitesmoke;
+}
 
+#footer-a-toTop:active {
+  box-shadow: 1px 1px 25px whitesmoke;
 }
 
 #footer-a {
@@ -37,6 +41,9 @@ footer {
   text-shadow: 4px 4px 10px whitesmoke;
 }
 
+.to-top {
+  align-self: center;
+}
 .attributions {
   line-height: 0.5em;
 }
