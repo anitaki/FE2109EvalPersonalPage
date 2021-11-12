@@ -15,7 +15,7 @@ header {
 }
 
 a, button {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0,0,0,0); /*to remove box of image container to show on tap on mobile*/
 }
 
 #button {

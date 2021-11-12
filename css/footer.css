@@ -1,7 +1,12 @@
 footer {
 background-color: black;
 color: rgb(255, 235, 205);
-height: 100px;
-
+/* height: 100px; */
 
 }
+
+footer > p > a {
+color: rgb(255, 235, 205);
+
+}
+
