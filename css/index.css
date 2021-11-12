@@ -27,11 +27,9 @@ a {
 }
 
 a:hover {
-  color: rgb(134,0,173);
+  color: rgb(134, 0, 173);
   border-bottom-width: 3.1px;
 }
-
-
 
 /*----- Main Section: My Photo and About Me text ------*/
 
@@ -228,16 +226,16 @@ figure:hover > figcaption {
   margin: 4em 0 5em 0;
 }
 
-.contact-me > h1 > img {
+.contact-me img {
   width: 60px;
   margin: 0 0 0 0;
 }
 
-.contact-me > h1 {
+.contact-me h1 {
   font-size: 2.5rem;
 }
 
-.contact-me > h1 > a {
+.contact-me a {
   font-size: 1.5rem;
   padding: 10px;
 }
@@ -420,6 +418,20 @@ figure:hover > figcaption {
   .my-videos-block span {
     font-size: 1.2rem;
   }
+
+  .contact-me-text {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-me > h1 {
+    font-size: 2rem;
+  }
+
+  .contact-me > h1 > a {
+    font-size: 1rem;
+    padding: 10px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -489,5 +501,14 @@ figure:hover > figcaption {
 
   .my-video-item {
     width: 90%;
+  }
+
+  .contact-me > h1 {
+    font-size: 0.9rem;
+  }
+
+  .contact-me > h1 > a {
+    font-size: 0.9rem;
+    padding: 10px;
   }
 }
