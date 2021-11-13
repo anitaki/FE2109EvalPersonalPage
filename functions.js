@@ -33,6 +33,10 @@ function changeColor() {
   colorIndex++;
 }
 
+
+
+
+
 // <!-- var colors = [
 //   "rgba(74, 179, 228, 0.5)",
 //   "rgba(113, 161, 212, 1)",
