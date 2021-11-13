@@ -51,11 +51,9 @@ a, button {
 
 .ball {
   animation-name: ball;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
   animation-delay: 1s;
- 
- 
  
 }
 
@@ -549,7 +547,7 @@ figure:hover > figcaption {
 
 .contact-me img:hover,
 .contact-me img:focus {
-  transform: translatex(60px);
+  transform: translatex(5%);
 }
 
 .contact-me h1,
