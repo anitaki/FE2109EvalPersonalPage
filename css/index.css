@@ -348,7 +348,7 @@ a:hover {
 }
 
 .about-me-side p {
-  font-family: 'Raleway', sans-serif;
+  font-family:   'Raleway', 'Trebuchet MS', sans-serif;
     font-weight: 500;
 }
 
@@ -758,9 +758,8 @@ footer p {
     width: 90%;
   }
 
-  .about-me-side p {
-    font-family: 'Raleway', sans-serif;
-      font-weight: 600;
+  .about-me-side P {
+    font-family: 'Raleway', 'Trebuchet MS',  sans-serif;
   }
 
   .pilates-system {
@@ -833,9 +832,9 @@ footer p {
     height: 30px;
     margin: 3.5% 0;
 }
-
-
 }
+
+
 
 @media (max-width: 425px) {
   h2 {
