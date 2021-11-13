@@ -14,6 +14,7 @@ function changeColor() {
   var colFooter = document.getElementById("footer");
   var colFooterA = document.getElementById("footer-a");
   var colFooterATop = document.getElementById("footer-a-toTop");
+  var colFooterIconsA = document.getElementById("footer-icons-a");
 
   if (colorIndex >= colors.length) {
     colorIndex = 0;
@@ -27,11 +28,10 @@ function changeColor() {
   colFooter.style.color = colors[colorIndex];
   colFooterA.style.color = colors[colorIndex];
   colFooterATop.style.backgroundColor = colors[colorIndex];
+  colFooterIconsA.style.color = colors[colorIndex];
 
   colorIndex++;
 }
-
-
 
 // <!-- var colors = [
 //   "rgba(74, 179, 228, 0.5)",
