@@ -291,7 +291,7 @@ body {
   overscroll-behavior: none; /*to keep body from bouncing left/right on safari*/
   font-family: "Handlee", "Indie Flower", "Trebuchet MS", "Lucida Sans Unicode",
     "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -308,13 +308,13 @@ main a {
   text-decoration: none;
   padding-bottom: 2px;
   border-bottom-style: solid;
-  border-bottom-width: 2.1px;
+  border-bottom-width: 2.3px;
   width: fit-content;
 }
 
 a:hover {
   color: rgb(134, 0, 173);
-  border-bottom-width: 3.1px;
+  
 }
 
 
@@ -382,6 +382,8 @@ h2 {
   justify-content: space-around;
   margin: 4em 0 17em 0;
  
+  
+
 }
 
 .pilates-system > figure {
@@ -390,6 +392,8 @@ h2 {
   align-items: center;
   margin: 10px;
   width: 20%;
+ 
+  
  
 }
 
