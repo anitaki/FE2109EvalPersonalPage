@@ -51,9 +51,12 @@ a, button {
 
 .ball {
   animation-name: ball;
-  animation-duration: 3s;
-  animation-timing-function: ease-in;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
   animation-delay: 1s;
+ 
+ 
+ 
 }
 
 @keyframes ball {
@@ -87,7 +90,7 @@ a, button {
   }
   45% {
     background: rgba(248, 150, 178, 1);
-    margin: 20px 0px 20px 0;
+    /* margin: 20px 0px 20px 0; */
   }
   50% {
     background: linear-gradient(
@@ -97,19 +100,19 @@ a, button {
       rgba(250, 246, 211, 1) 25%,
     );
     transform: rotate(90deg);
-    margin: 0px 0px 0px 0;
+    /* margin: 0px 0px 0px 0; */
   }
   60% {
     background: rgba(250, 246, 211, 1);
-    margin: -10px 0px 0px 0;
+    /* margin: -10px 0px 0px 0; */
   }
   70% {
     background: rgba(125, 199, 223, 1);
-    margin: -20px 0 0px 0px;
+    /* margin: -20px 0 0px 0px; */
   }
   75% {
     background: rgba(74, 179, 228, 1);
-    margin: 20px 0 0px 0px;
+    /* margin: 20px 0 0px 0px; */
   }
   80% {
     background: linear-gradient(
