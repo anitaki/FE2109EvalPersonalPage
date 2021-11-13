@@ -51,16 +51,10 @@ a, button {
 
 .ball {
   animation-name: ball;
-<<<<<<< HEAD
   animation-duration: 3s;
-  animation-timing-function: ease-in;
-=======
-  animation-duration: 50s;
-  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
->>>>>>> 67bdacd23e2667e5f4641ee5f9d9c13d0e4efcce
+  animation-timing-function: ease-in-out;
   animation-delay: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+  
  
 }
 
