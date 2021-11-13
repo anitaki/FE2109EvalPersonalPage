@@ -557,6 +557,7 @@ footer {
   height: 40px;
   width: 40px;
   padding: 0.1rem;
+  align-self: center;
 }
 
 #footer-a-toTop:hover {
@@ -583,9 +584,7 @@ footer {
   text-shadow: 4px 4px 10px whitesmoke;
 }
 
-.to-top {
-  align-self: center;
-}
+
 .attributions {
   line-height: 0.5em;
 }
