@@ -504,8 +504,9 @@ figure:hover > figcaption {
 }
 
 .my-video-item:hover {
-  border: solid 4px black;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  /* border: solid 4px black;
+  padding: 4px; */
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5), -4px -4px 30px rgba(0, 0, 0, 0.2);
 }
 
 .my-video-item iframe {
