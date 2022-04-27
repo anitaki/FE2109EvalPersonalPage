@@ -6,9 +6,6 @@ based on Sean Halpin's About page
 
 Note on background color change:--->
 
-The Javascript code is not my code. 
-I found an online snippet for background color change by clicking a button using Javascript. 
-
 This feature was essential to the website's concept. 
 Inspiration was from Maria's business cards.
 
